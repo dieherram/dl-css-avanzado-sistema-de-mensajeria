@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    height: 100vh;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 20em;
+    max-height: 100vh;
+    overflow-y: auto;
+}
+
+aside .user-state-container {
+    display: flex;
+    justify-content: space-between;
+    padding: .7em 1.5em;
+    border: 1px solid #E8EBE4;
+}
+
+aside .user-state-container img {
+    width: 2.5em;
+    border-radius: 100%;
+    border: 2px solid #E8EBE4;
+}
+
+aside .user-info-container {
+    display: flex;
+    column-gap: 0.5em;
+}
+
+aside .user-info-container .user-data-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 0.2em;
+}
+
+aside .user-info-container .user-data-container:nth-child(2) {
+    font-size: 0.875em;
+}
+
+aside .user-info-container .user-data-container span+span {
+    font-size: 0.625em;
+}
+
+aside .user-info-container .user-data-container span+span {
+    color: #828485;
+}
+
+aside .user-state-container .user-options-container {
+    display: flex;
+    align-items: center;
+    column-gap: 1em;
+}
+
+aside .user-state-container .user-options-container i {
+    color: #828485;
+}
+
+aside .button-container {
+    display: flex;
+    justify-content: center;
+    padding: 2.3em 1.5em;
+    border: 1px solid #E8EBE4;
+}
+
+aside .button-reset {
+    border: none;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #A491D2;
+    color: #fff;
+    width: 12em;
+    height: 3em;
+    font-size: 0.875em;
+}
+
+aside .button-container .button-reset:hover {
+    background-color: #CDC3E6;
+}
+
+aside .button-container .button-reset:focus {
+    background-color: #E8EBE4;
+}
+
+aside .user-chats-container {
+    display: flex;
+    padding: .7em 1.5em;
+    column-gap: .8em;
+    border: 1px solid #E8EBE4;
+}
+
+aside .user-chats-container .user-chats-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+aside .user-chats-container .user-chats-info span {
+    font-size: 1em;
+}
+
+aside .user-chats-container .user-chats-info p {
+    font-size: 0.875em;
+    font-weight: 300;
+}
+
+aside .user-chats-container img {
+    width: 3.2em;
+    border-radius: 100%;
+    border: 2px solid #E8EBE4;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 1.3em;
+    width: 100%;
+    background-color: #E8EBE4;
+}
+
+main .text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .text-container h1 {
+    font-size: 2.8125em;
+    font-weight: 400;
+}
+
+main .text-container p {
+    font-size: 1em;
+    font-weight: 300;
+}
+
+main .text-container p span {
+    font-weight: bold;
+}
+
+main img {
+    width: 15em;
+    border-radius: 1em;
+}
